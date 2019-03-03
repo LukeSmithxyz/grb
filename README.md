@@ -37,7 +37,7 @@ Format and original implementation from [bontibon/kjv](https://github.com/bontib
 ## Notes and Contents
 
 - I/II Samuel and I/II Kings are named with their English titles despite the fact that in Greek they are respectively I-IV Kings. This is simply because the interface is in English and is supposed to be consistent with `kjv`.
-- Ezra and Nehemiah are "included", but are categorized as 2 Esdras as with the Septuagint. This is simply to prevent breaking up the book as it appears natively in the Septuagint, although I might add an entry for Ezra and Nehemiah as separate books later.
+- What are in some versions the books Erza and Nehemiah are in the Septuagit 2 Esdras. However these books/verse can be accessed via either possible name.
 - Apochrophal and Deuterocanonical books included, including:
 	- 1 Esdras
 	- Judith
@@ -45,7 +45,7 @@ Format and original implementation from [bontibon/kjv](https://github.com/bontib
 	- I-IV Maccabees
 	- Odes
 	- Wisdom of Solomon
-	- Psalmes of Solomon
+	- Psalms of Solomon
 	- Zephaniah (Sophonias)
 	- Baruch
 	- Letter of Jeremiah
