@@ -68,6 +68,18 @@ cd grb
 sudo make install
 ```
 
+## Arch User Repository
+
+`grb` is also available in the Arch User Repository. `grb-git` in the Arch User Repository is based on `kjv-git` for `kjv`. Tim Cooper wrote the PKGBUILD for `kjv-git`. [Corey Stephan](https://github.com/historical-theology) ported that PKGBUILD as `grb-git`.
+
+https://aur.archlinux.org/packages/grb-git/
+
+For example, a user with `pamac` installed might install `grb` with the following command:
+
+```
+pamac install grb-git
+```
+
 ## License
 
 The script is in the public domain.
