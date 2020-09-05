@@ -5,7 +5,7 @@ grb: grb.sh grb.awk grb.tsv
 	cat grb.sh > $@
 	echo 'exit 0' >> $@
 	echo "#EOF" >> $@
-	tar cz grb.awk grb.tsv >> $@
+	tar czf - grb.awk grb.tsv >> $@
 	chmod +x $@
 
 test: grb.sh
