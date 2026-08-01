@@ -34,6 +34,17 @@ Format and original implementation from [bontibon/kjv](https://github.com/bontib
           <Book>:<Chapter>/<Search>
               All verses in a chapter of a book that match a pattern
 
+## Searching the Scriptures
+
+`grb`, like the other Bible search programs I have, `vul` for the Latin Vulgate and `kjv`, you can search the corpus with `/`, but typing polytonic Greek is hard (implausible).
+
+So `grb /"εν Χριστω"` will return nothing, because `awk` cannot match it to `ἐν Χριστῷ` for a technical reason.
+
+So I've added a wrapper script, `grbs`, which works the same way as `grb`, but automatically replaces all vowels and variable consonants (like σ/ς) with a regex that will actually find what you want.
+
+Long story short, run `grbs`, not `grb` when you search unless you want accent-sensitivity.
+
+
 ## Notes and Contents
 
 - I/II Samuel and I/II Kings are named with their English titles despite the fact that in Greek they are respectively I-IV Kings. This is simply because the interface is in English and is supposed to be consistent with `kjv`.

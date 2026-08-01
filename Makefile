@@ -17,9 +17,12 @@ clean:
 install: grb
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f grb $(DESTDIR)$(PREFIX)/bin
+	cp -f grbs $(DESTDIR)$(PREFIX)/bin
 	chmod 755 $(DESTDIR)$(PREFIX)/bin/grb
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/grbs
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/grb
+	rm -f $(DESTDIR)$(PREFIX)/bin/grbs
 
 .PHONY: test clean install uninstall
